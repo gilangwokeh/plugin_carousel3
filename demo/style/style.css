@@ -1,0 +1,86 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  line-height: 1.6em;
+}
+body .slide-h1 {
+  margin-top: 20px;
+}
+body a {
+  color: #fff;
+  text-decoration: none;
+}
+body h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+body h4 {
+  text-align: center;
+  margin: 40px;
+}
+body .paragraph-carousel {
+  width: 1000px;
+  height: 100px;
+  text-align: justify;
+  position: relative;
+  left: 140px;
+  font-family: sans-serif;
+}
+body .container {
+  width: 980px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+body .container #slider {
+  width: 940px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  padding: 0px;
+  border: #666 solid 2px;
+  border-radius: 5px;
+}
+body .container #slider img {
+  width: 940px;
+  height: 350px;
+}
+body .container #slider .slide {
+  position: absolute;
+}
+body .container #slider .slide .slide-copy {
+  display: none;
+}
+body .prev-span {
+  background-color: #666;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  float: right;
+  left: 193px;
+  margin-top: 160px;
+  border-radius: 40px;
+  z-index: 100;
+}
+body .prev-span:hover, body .next-span:hover {
+  cursor: pointer;
+  background-color: rgb(161, 153, 153);
+  transition: all 0.45s;
+  width: 50px;
+  border-radius: 50px;
+}
+body .next-span {
+  background-color: #666;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  float: left;
+  right: 210px;
+  margin-top: 160px;
+  border-radius: 40px;
+  z-index: 100;
+}
+
+/*# sourceMappingURL=style.css.map */
